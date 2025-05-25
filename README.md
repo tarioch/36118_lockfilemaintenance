@@ -4,12 +4,12 @@ Reproduction for [#36118](https://github.com/renovatebot/renovate/discussions/36
 
 ## Current behavior
 
-Explain the current behavior here.
+```npm ci``` on main works fine, but on the lockfile maintenance branch it fails.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+```npm ci``` should also work on the lockfile maintenance branch.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+Reproduction for [#36118](https://github.com/renovatebot/renovate/discussions/36118)
