@@ -40,5 +40,11 @@
     "vite": "6.3.5",
     "@vitejs/plugin-react": "4.5.0",
     "vite-plugin-checker": "0.9.3"
+  },
+  "scripts": {
+    "gen": "money -gen > openapi.json; npx @rtk-query/codegen-openapi openapi-config.json; rm openapi.json",
+    "build": "vite build",
+    "dev-build": "vite",
+    "lintfix": "eslint --fix js"
   }
 }
