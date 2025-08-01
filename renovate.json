@@ -1,5 +1,9 @@
 {
     "skipInstalls": false,
+    "packageRules": [
+        "matchManagers": ["npm"],
+        "enabled": false
+    ],
     "lockFileMaintenance": {
       "enabled": true,
       "schedule": null
